@@ -86,52 +86,97 @@ export default function Hero() {
               </p>
 
               <div className="mt-6 flex flex-wrap gap-4">
-                <button className="h-14 bg-white text-inglu-blue font-semibold px-8 rounded-[18px] flex items-center gap-2 shadow-[0_10px_30px_rgba(0,0,0,0.18)] hover:bg-blue-50 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
-                  For Youth <span aria-hidden>→</span>
-                </button>
-                <button className="h-14 border border-white/60 text-white font-semibold px-8 rounded-[18px] flex items-center gap-2 hover:bg-white/10 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
-                  For Brands <span aria-hidden>→</span>
-                </button>
+                <button className="h-12 bg-sky-600 text-white text-sm font-semibold px-6 rounded-[18px] flex items-center gap-2 shadow-[0_6px_20px_rgba(0,0,0,0.2)] hover:bg-sky-700 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
+              For Youth <span aria-hidden>→</span>
+              </button>
+                <button className="h-12 border border-white/60 text-white text-sm font-semibold px-6 rounded-[18px] flex items-center gap-2 hover:bg-white/10 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
+              For Brands <span aria-hidden>→</span>
+             </button>
+             {/* hand-drawn squiggly arrow, matching reference style */}
+<svg
+  className="hidden lg:block opacity-90 flex-shrink-0"
+  width="100"
+  height="55"
+  viewBox="0 0 100 55"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  {/* arrowhead pointing up-left */}
+  <path
+    d="M28 8 L8 14 L18 26"
+    stroke="white"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    fill="none"
+  />
+  {/* curvy tail from arrowhead into a loop */}
+  <path
+    d="M9 15 C 35 12, 55 22, 62 32 C 68 41, 58 50, 48 46 C 40 43, 42 33, 52 30 C 62 27, 78 32, 90 40"
+    stroke="white"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    fill="none"
+  />
+</svg>
               </div>
             </div>
 
             {/* ---- right: phone mockup ---- */}
             <div className="relative flex justify-center lg:justify-end translate-y-[40px] sm:translate-y-[60px] lg:translate-x-[-60px] lg:translate-y-[80px]">
-              <FloatingIcon
-                className="absolute -top-8 left-[36%] lg:left-[40%]"
-                anim="animate-hero-float-a"
-                delay="0s"
-                ring="ring-purple-100"
-                size="w-14 h-14"
-                tilt={tilt}
-                strength={22}
-              >
-                <Sparkles size={22} className="text-purple-500" />
-              </FloatingIcon>
+
 
               <FloatingIcon
-                className="absolute top-[44%] -left-8 lg:-left-16"
-                anim="animate-hero-float-b"
-                delay="0.4s"
-                ring="ring-blue-100"
-                size="w-11 h-11"
-                tilt={tilt}
-                strength={14}
-              >
-                <Globe2 size={18} className="text-blue-500" />
-              </FloatingIcon>
+  className="absolute -top-6 left-[38%] lg:left-[42%]"
+  anim="animate-hero-float-a"
+  delay="0s"
+  ring="ring-purple-100"
+  size="w-14 h-14"
+  tilt={tilt}
+  strength={22}
+>
+  <Sparkles size={22} className="text-purple-500" />
+</FloatingIcon>
 
-              <FloatingIcon
-                className="absolute bottom-4 left-[16%] lg:left-[20%]"
-                anim="animate-hero-float-a"
-                delay="0.8s"
-                ring="ring-emerald-100"
-                size="w-16 h-16"
-                tilt={tilt}
-                strength={18}
-              >
-                <ShareIcon size={24} className="text-emerald-500" />
-              </FloatingIcon>
+<FloatingIcon
+  className="absolute top-[38%] -left-6 lg:-left-14"
+  anim="animate-hero-float-b"
+  delay="0.4s"
+  ring="ring-blue-100"
+  size="w-12 h-12"
+  tilt={tilt}
+  strength={14}
+>
+  <Globe2 size={20} className="text-blue-500" />
+</FloatingIcon>
+
+<FloatingIcon
+  className="absolute top-[62%] -right-6 lg:-right-10"
+  anim="animate-hero-float-a"
+  delay="0.8s"
+  ring="ring-teal-100"
+  size="w-14 h-14"
+  tilt={tilt}
+  strength={18}
+>
+  <ShareIcon size={22} className="text-teal-500" />
+</FloatingIcon>
+
+<FloatingIcon
+  className="absolute bottom-2 -left-4 lg:-left-12"
+  anim="animate-hero-float-b"
+  delay="1.2s"
+  ring="ring-teal-100"
+  size="w-13 h-13"
+  tilt={tilt}
+  strength={16}
+>
+  <Globe2 size={20} className="text-teal-600" />
+</FloatingIcon>
+
+
+
+
 
               <div
                 className="relative animate-hero-float-phone will-change-transform"
