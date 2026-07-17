@@ -107,3 +107,88 @@ export const footerLinks = {
   RESOURCES: ['Blog', 'Help Center', 'Downloads', 'Campus Buzz'],
   LEGAL: ['Privacy Policy', 'Terms of Use', 'Refund Policy', 'Code of Conduct'],
 }
+
+
+import { Sparkles, Users2, GraduationCap, Building2 } from 'lucide-react'
+
+// ---- Navbar ----
+export const NAV_LINKS = [
+  { name: 'About Us', path: '/about' },
+  { name: 'Ecosystem', path: '/ecosystem' },
+  { name: 'For Students', path: '/for-students' },
+  { name: 'For Brands', path: '/for-brands' },
+  { name: 'Events', path: '/events' },
+  { name: 'Campus Buzz', path: '/campus-buzz' },
+]
+
+// ---- Stats (used in Hero, StatsBar, About) ----
+export const GLANCE_STATS = [
+  { value: '1000+', label: 'Events' },
+  { value: '500+', label: 'Campuses' },
+  { value: '50+', label: 'Brands' },
+  { value: '1L+', label: 'Youth' },
+]
+
+// ---- About Page ----
+export const ECOSYSTEM_CARDS = [
+  { icon: GraduationCap, title: 'Students', body: 'Internships, real skills, campus leadership and a student community where you belong.' },
+  { icon: Sparkles, title: 'Creators', body: 'Creator economy access without follower gatekeeping.' },
+  { icon: Building2, title: 'Colleges', body: 'Sponsors, artists and a campus network for students at zero cost.' },
+  { icon: Users2, title: 'Brands', body: 'Gen Z reach through verified campus and creator channels.' },
+]
+
+export const WHY_IT_MATTERS_CARDS = [
+  { title: '50M students', body: 'Talent locked out by access.' },
+  { title: 'Brands guessing', body: 'Budgets spent without proof of relevance.' },
+  { title: 'Campuses siloed', body: 'Communities reset when each batch graduates.' },
+]
+
+export const STORY_CARDS = [
+  { title: '2017', body: 'One college, a handful of students, and a belief that young talent deserved to be seen.' },
+  { title: '2021', body: 'Events became an ecosystem across students, creators, campuses and brands.' },
+  { title: 'Now', body: 'A connected operating layer for opportunity, culture and youth growth.' },
+]
+
+// ---- Footer ----
+export const FOOTER_COLUMNS = [
+  {
+    title: 'Ecosystem',
+    links: [
+      { label: 'All Verticals', path: '/ecosystem' },
+      { label: 'Events', path: '/events' },
+      { label: 'Creators', path: '/creators' },
+      { label: 'Muse Records', path: '/muse' },
+      { label: 'FOMO Xperience', path: '/fomo' },
+      { label: 'SPACEBAR', path: '/spacebar' },
+    ],
+  },
+  {
+    title: 'Audiences',
+    links: [
+      { label: 'Students', path: '/for-students' },
+      { label: 'Brands', path: '/for-brands' },
+      { label: 'Colleges', path: '/colleges' },
+      { label: 'Creators', path: '/creators' },
+      { label: 'Artists', path: '/artists' },
+    ],
+  },
+  {
+    title: 'Company',
+    links: [
+      { label: 'About', path: '/about' },
+      { label: 'Press', path: '/press' },
+      { label: 'Careers', path: '/careers' },
+      { label: 'Contact', path: '/contact' },
+      { label: 'Case Studies', path: '/case-studies' },
+    ],
+  },
+  {
+    title: 'Legal',
+    links: [
+      { label: 'Privacy Policy', path: '/privacy' },
+      { label: 'Terms of Service', path: '/terms' },
+      { label: 'Refund Policy', path: '/refunds' },
+      { label: 'DPDP Compliance', path: '/privacy' },
+    ],
+  },
+]
