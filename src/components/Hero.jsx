@@ -86,9 +86,9 @@ export default function Hero() {
               </p>
 
               <div className="mt-6 flex flex-wrap gap-4">
-                <button className="h-12 bg-sky-600 text-white text-sm font-semibold px-6 rounded-[18px] flex items-center gap-2 shadow-[0_6px_20px_rgba(0,0,0,0.2)] hover:bg-sky-700 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
-              For Youth <span aria-hidden>→</span>
-              </button>
+                <button className="h-12 bg-[#0000FF] text-white text-sm font-semibold px-6 rounded-[18px] flex items-center gap-2 shadow-[0_6px_20px_rgba(0,0,0,0.2)] hover:bg-[#0000CC] hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
+  For Youth <span aria-hidden>→</span>
+</button>
                 <button className="h-12 border border-white/60 text-white text-sm font-semibold px-6 rounded-[18px] flex items-center gap-2 hover:bg-white/10 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200">
               For Brands <span aria-hidden>→</span>
              </button>
