@@ -192,3 +192,69 @@ export const FOOTER_COLUMNS = [
     ],
   },
 ]
+
+// ---- For Brands Page ----
+export const BRANDS_STATS = [
+  { value: '500+', label: 'Campuses' },
+  { value: '50+', label: 'Brand partners' },
+  { value: '7 days', label: 'Activation window' },
+  { value: '1L+', label: 'Youth reach' },
+]
+
+export const BRANDS_PROBLEM_CARDS = [
+  { title: 'Attention is fragmented', body: 'Gen Z lives across apps, feeds, campuses and communities.' },
+  { title: 'Reach is not engagement', body: 'Impressions are cheap. Trust is not.' },
+  { title: 'Communities cannot be bought', body: 'You have to be part of them, not interrupt them.' },
+]
+
+export const BRANDS_WAYS_CARDS = [
+  { title: 'Campus activations', body: 'On-ground experiences across colleges.' },
+  { title: 'Creator campaigns', body: 'Student creators make authentic content.' },
+  { title: 'Product launches', body: 'Introduce products where Gen Z already is.' },
+  { title: 'Ambassador programs', body: 'Always-on local campus presence.' },
+  { title: 'Community building', body: 'Grow and energise youth communities.' },
+]
+
+// ---- Campus Buzz Page ----
+export const CAMPUS_BUZZ_STATS = [
+  { value: 'Latest', label: 'Brand deal playbook' },
+  { value: 'Muse Drop', label: 'PARO editorial' },
+  { value: 'GRID', label: 'Riya hit Circuit' },
+  { value: 'Weekly', label: 'Drops' },
+]
+
+export const CAMPUS_BUZZ_POSTS = [
+  { title: 'How to pitch your first brand deal', body: 'A practical playbook for student creators from DM to signed brief.' },
+  { title: 'Riya, NIFT hit Circuit tier', body: 'From zero earnings to Rs 8,000/month in 45 days.' },
+  { title: 'PARO hits Spotify editorial', body: 'Campus-to-playlist in four months.' },
+]
+
+export const CAMPUS_BUZZ_STREAMS = [
+  { title: 'Articles', body: 'Practical guides and youth culture commentary.' },
+  { title: 'Podcast', body: 'Founder stories, creator talks and campus operators.' },
+  { title: 'Announcements', body: 'Events, drops, rosters and opportunities.' },
+]
+
+
+// ---- Artists Page ----
+export const ARTISTS_STATS = [
+  { value: 'Music', label: 'Room' },
+  { value: 'Dance', label: 'Movement' },
+  { value: 'Visual Art', label: 'Gallery' },
+  { value: 'Spoken Word', label: 'Stage' },
+]
+
+export const ARTISTS_TYPE_CARDS = [
+  { title: 'Musicians', body: 'Producers, bands, bedroom beatmakers.' },
+  { title: 'Singers', body: 'Voices that carry a whole room.' },
+  { title: 'Dancers', body: 'Movement that says the unsayable.' },
+  { title: 'Poets', body: 'Spoken word, slam, verse and story.' },
+  { title: 'Visual artists', body: 'Painters, illustrators and designers.' },
+  { title: 'Performers', body: 'Theatre, stand-up and the whole stage.' },
+]
+
+export const ARTISTS_DISCOVERY_CARDS = [
+  { title: 'Campus stages', body: 'Real talent in front of real audiences.' },
+  { title: 'Festivals', body: 'Moments that travel beyond the room.' },
+  { title: 'Bookers', body: 'People who can sign, share and support.' },
+]

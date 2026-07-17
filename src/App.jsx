@@ -13,6 +13,10 @@ import WhoAreYou from './components/WhoAreYou'
 import LiveFeed from './components/LiveFeed'
 import Footer from './components/Footer'
 import About from './components/About'
+import ForBrands from './components/ForBrands'
+import CampusBuzz from './components/CampusBuzz'
+import Artists from './components/Artists'
+
 
 function Home() {
   return (
@@ -39,6 +43,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/for-brands" element={<ForBrands />} />
+        <Route path="/campus-buzz" element={<CampusBuzz />} />
+        <Route path="/artists" element={<Artists />} />
       </Routes>
       <Footer />
     </div>

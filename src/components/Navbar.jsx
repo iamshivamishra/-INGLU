@@ -3,12 +3,14 @@ import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
   const location = useLocation()
-
+  
+  // Maine yahan "Artists" link ko array me add kar diya hai
   const links = [
     { name: 'About Us', path: '/about' },
     { name: 'Ecosystem', path: '/ecosystem' },
     { name: 'For Students', path: '/for-students' },
     { name: 'For Brands', path: '/for-brands' },
+    { name: 'Artists', path: '/artists' }, // ← Naya addition!
     { name: 'Events', path: '/events' },
     { name: 'Campus Buzz', path: '/campus-buzz' },
   ]
@@ -19,14 +21,13 @@ export default function Navbar() {
         <Link to="/" className="text-xl font-extrabold tracking-tight text-inglu-ink">
           INGLU
         </Link>
-
-        <ul className="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <ul className="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-medium text-slate-600">
           {links.map((link) => (
             <li key={link.name}>
               <Link
                 to={link.path}
                 className={`flex items-center gap-1 cursor-pointer hover:text-inglu-blue transition-colors ${
-                  location.pathname === link.path ? 'text-inglu-blue' : ''
+                  location.pathname === link.path ? 'text-inglu-blue font-semibold' : ''
                 }`}
               >
                 {link.name}
@@ -35,7 +36,6 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-
         <div className="flex items-center gap-3">
           <button className="hidden sm:inline text-sm font-semibold text-slate-700 hover:text-inglu-blue transition-colors">
             Sign In
