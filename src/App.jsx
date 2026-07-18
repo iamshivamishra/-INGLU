@@ -16,6 +16,12 @@ import About from './components/About'
 import ForBrands from './components/ForBrands'
 import CampusBuzz from './components/CampusBuzz'
 import Artists from './components/Artists'
+import Careers from './components/Careers'
+import CaseStudies from './components/CaseStudies'
+import Colleges from './components/Colleges'
+import Contact from './components/Contact'
+
+
 
 
 function Home() {
@@ -46,6 +52,10 @@ function App() {
         <Route path="/for-brands" element={<ForBrands />} />
         <Route path="/campus-buzz" element={<CampusBuzz />} />
         <Route path="/artists" element={<Artists />} />
+        <Route path="/careers" element={<Careers />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/colleges" element={<Colleges />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </div>

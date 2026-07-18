@@ -101,14 +101,38 @@ export const liveFeed = [
   { tag: 'Gig', title: 'Freelance Content Project', sub: 'Earn' },
   { tag: 'Campaign', title: 'Red Bull Campus Activation', sub: 'Brands' },
 ]
+
 export const footerLinks = {
-  ECOSYSTEM: ['Education', 'Events', 'Creators', 'Muse Records', 'Travels', 'Esports'],
-  COMPANY: ['About Us', 'Careers', 'Brand Partners', 'Press', 'Contact Us'],
-  RESOURCES: ['Blog', 'Help Center', 'Downloads', 'Campus Buzz'],
-  LEGAL: ['Privacy Policy', 'Terms of Use', 'Refund Policy', 'Code of Conduct'],
+  ECOSYSTEM: [
+    { label: 'Education', path: '/ecosystem' },
+    { label: 'Events', path: '/events' },
+    { label: 'Creators', path: '/creators' },
+    { label: 'Muse Records', path: '/muse' },
+    { label: 'Travels', path: '/travels' },
+    { label: 'Esports', path: '/esports' },
+  ],
+  COMPANY: [
+    { label: 'About Us', path: '/about' },
+    { label: 'Careers', path: '/careers' },
+    { label: 'Brand Partners', path: '/for-brands' },
+    { label: 'Press', path: '/press' },
+    { label: 'Contact Us', path: '/contact' },
+    { label: 'Case Studies', path: '/case-studies' },
+    { label: 'Colleges', path: '/colleges' }
+  ],
+  RESOURCES: [
+    { label: 'Blog', path: '/blog' },
+    { label: 'Help Center', path: '/help' },
+    { label: 'Downloads', path: '/downloads' },
+    { label: 'Campus Buzz', path: '/campus-buzz' },
+  ],
+  LEGAL: [
+    { label: 'Privacy Policy', path: '/privacy' },
+    { label: 'Terms of Use', path: '/terms' },
+    { label: 'Refund Policy', path: '/refunds' },
+    { label: 'Code of Conduct', path: '/code-of-conduct' },
+  ],
 }
-
-
 import { Sparkles, Users2, GraduationCap, Building2 } from 'lucide-react'
 
 // ---- Navbar ----
@@ -258,3 +282,92 @@ export const ARTISTS_DISCOVERY_CARDS = [
   { title: 'Festivals', body: 'Moments that travel beyond the room.' },
   { title: 'Bookers', body: 'People who can sign, share and support.' },
 ]
+
+
+// ---- Careers Page ----
+export const CAREERS_STATS = [
+  { value: 'High', label: 'Ownership' },
+  { value: 'Fast', label: 'Learning' },
+  { value: 'Cross', label: 'Verticals' },
+  { value: 'Real', label: 'Impact' },
+]
+
+export const CAREERS_WHY_JOIN_CARDS = [
+  { title: 'Build something that matters', body: 'Work people actually use, not slide decks.' },
+  { title: 'Learn fast', body: 'Run real projects and see impact within weeks.' },
+  { title: 'Work across verticals', body: 'Education, creators, events, brands and media.' },
+  { title: 'Grow with the ecosystem', body: 'Scope expands as the network scales.' },
+]
+
+export const CAREERS_ROLES_CARDS = [
+  { title: 'Growth & Marketing', body: 'Funnels, content, analytics and campus footprint.' },
+  { title: 'Partnerships', body: 'Brands, colleges and sponsors.' },
+  { title: 'Operations', body: 'Events, programs and process design.' },
+  { title: 'Community', body: 'Programs, ambassadors and rituals.' },
+]
+
+
+// ---- Case Studies Page ----
+export const CASE_STUDIES_STATS = [
+  { value: '1L+', label: 'Reach' },
+  { value: '+18%', label: 'Engagement' },
+  { value: '500+', label: 'Creators' },
+  { value: '4.5M+', label: 'Conversions' },
+]
+
+export const CASE_STUDIES_FEATURED_CARDS = [
+  { title: 'Objective', body: 'Launch awareness with credible student voices.' },
+  { title: 'Challenge', body: 'Traditional channels were expensive and shallow.' },
+  { title: 'Solution', body: 'Campus ambassador network plus student-creator activations.' },
+  { title: 'Result', body: 'Authentic content engine across colleges.' },
+]
+
+export const CASE_STUDIES_CAMPAIGN_TYPES = [
+  { title: 'Beauty', body: 'Campus awareness and creator sampling.' },
+  { title: 'Food and beverage', body: 'College activations and student offers.' },
+  { title: 'Entertainment', body: 'Event-led recall and fan communities.' },
+]
+
+// ---- Colleges Page ----
+export const COLLEGES_STATS = [
+  { value: '500+', label: 'Campuses' },
+  { value: 'Zero cost', label: 'Institution' },
+  { value: 'Brand funded', label: 'Programs' },
+  { value: 'Living', label: 'Campus engine' },
+]
+
+export const COLLEGES_TRANSFORMATION_CARDS = [
+  { title: 'Passive campus', body: 'Disconnected, few opportunities, degrees only.' },
+  { title: 'Thriving campus', body: 'Connected, opportunity-rich, stories that last.' },
+]
+
+export const COLLEGES_WHY_PARTNER_CARDS = [
+  { title: 'More engagement', body: 'Students stop spectating and start showing up.' },
+  { title: 'More communities', body: 'Clubs, societies and crews multiply.' },
+  { title: 'More opportunities', body: 'Events, internships and creators arrive on campus.' },
+  { title: 'Stronger reputation', body: 'The campus everyone wants to be on.' },
+]
+
+
+// ---- Contact Page ----
+export const CONTACT_STATS = [
+  { value: 'New Delhi', label: 'Base' },
+  { value: '12-48 hrs', label: 'Response' },
+  { value: 'Every', label: 'Message read' },
+  { value: 'Nationwide', label: 'Building' },
+]
+
+export const CONTACT_REACH_CARDS = [
+  { title: 'Students', body: 'Find internships, events and opportunities.' },
+  { title: 'Creators', body: 'Join brand campaigns and creator programs.' },
+  { title: 'Brands', body: 'Run youth campaigns through the ecosystem.' },
+  { title: 'Campuses', body: 'Bring the campus engine to your students.' },
+]
+
+export const CONTACT_FAQ_CARDS = [
+  { title: 'How can I partner with INGLU?', body: 'Tell us your goals and the partnerships team replies with a tailored path.' },
+  { title: 'How do I become a creator?', body: 'Join INGLU Creators and get matched to briefs.' },
+  { title: 'Can my college collaborate?', body: 'Yes, the college pathway is built for societies, committees and institutions.' },
+]
+
+export const CONTACT_ROLE_OPTIONS = ['I am a...', 'Student', 'Creator', 'Brand', 'Campus Partner']

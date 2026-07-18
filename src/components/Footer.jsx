@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Linkedin, Instagram, Twitter, Youtube, Send } from 'lucide-react'
 import { footerLinks } from '../data'
 
@@ -28,8 +29,13 @@ export default function Footer() {
               <p className="text-xs font-bold tracking-wider text-slate-400 mb-4">{heading}</p>
               <ul className="space-y-2.5">
                 {links.map((link) => (
-                  <li key={link} className="text-xs text-slate-500 hover:text-inglu-blue cursor-pointer transition-colors">
-                    {link}
+                  <li key={link.label}>
+                    <Link
+                      to={link.path}
+                      className="text-xs text-slate-500 hover:text-inglu-blue cursor-pointer transition-colors"
+                    >
+                      {link.label}
+                    </Link>
                   </li>
                 ))}
               </ul>
