@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
-import { CREATORS_STATS, CREATORS_JOURNEY_CARDS, CREATORS_OPPORTUNITY_CARDS } from '../data'
+import { GRID_STATS, GRID_WHY_CARDS, GRID_FLOW_CARDS } from '../data'
 
 function Stat({ value, label }) {
   return (
@@ -34,7 +34,7 @@ function SectionHead({ kicker, heading, lead }) {
   )
 }
 
-function CreatorsHero() {
+function GridHero() {
   return (
     <section className="px-4 lg:px-10 pt-6">
       <div className="max-w-7xl mx-auto relative overflow-hidden rounded-3xl bg-gradient-to-br from-inglu-blue via-blue-600 to-blue-500">
@@ -44,37 +44,38 @@ function CreatorsHero() {
 
         <div className="relative z-10 px-6 sm:px-10 lg:px-16 py-16 lg:py-20 text-center">
           <span className="inline-block bg-white/15 border border-white/25 text-xs font-semibold tracking-wide text-white px-3 py-1.5 rounded-full mb-6">
-            INGLU CREATORS
+            THE GRID · INGLU
           </span>
 
           <h1 className="text-white font-black leading-tight text-3xl sm:text-4xl lg:text-5xl max-w-3xl mx-auto">
-            The creator economy starts here.
+            Your next opportunity is already in the network.
           </h1>
 
           <p className="mt-5 text-blue-50/90 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-            Get paid for the content you already make. 50 followers or 500K, you are in.
-            Real brand collaborations, real growth, no follower gatekeeping.
+            The Grid is INGLU's opportunity infrastructure connecting students, creators,
+            campus leaders and brands so internships, collaborations and real networking
+            move to the people building things.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            {/* fixed: Added the missing '<a' tag below */}
+            {/* fixed: Added missing opening '<a' tag below */}
             <a
               href="#content"
               className="h-12 bg-white text-inglu-blue text-sm font-semibold px-6 rounded-[18px] flex items-center gap-2 shadow-lg hover:-translate-y-0.5 transition-all duration-200"
             >
-              Join INGLU Creators <ArrowRight size={16} />
+              Apply to The Grid <ArrowRight size={16} />
             </a>
             
             <Link
               to="/ecosystem"
               className="h-12 border border-white/60 text-white text-sm font-semibold px-6 rounded-[18px] flex items-center gap-2 hover:bg-white/10 hover:-translate-y-0.5 transition-all duration-200"
             >
-              Browse creators <ArrowRight size={16} />
+              See the network <ArrowRight size={16} />
             </Link>
           </div>
 
           <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-2xl mx-auto pt-10 border-t border-white/15">
-            {CREATORS_STATS.map((stat) => (
+            {GRID_STATS.map((stat) => (
               <Stat key={stat.label} {...stat} />
             ))}
           </div>
@@ -84,16 +85,16 @@ function CreatorsHero() {
   )
 }
 
-function CreatorJourneySection() {
+function WhyGridSection() {
   return (
     <section className="px-4 lg:px-10 py-16 lg:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto">
         <SectionHead
-          kicker="The creator journey"
-          heading="From first post to paid, on a single path."
+          kicker="Why The Grid exists"
+          heading="Talent is everywhere. Access is not."
         />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {CREATORS_JOURNEY_CARDS.map((card) => (
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          {GRID_WHY_CARDS.map((card) => (
             <Card key={card.title} {...card} />
           ))}
         </div>
@@ -102,17 +103,17 @@ function CreatorJourneySection() {
   )
 }
 
-function OpportunitiesSection() {
+function WhatFlowsSection() {
   return (
     <section className="px-4 lg:px-10 py-16 lg:py-24">
       <div className="max-w-7xl mx-auto">
         <SectionHead
-          kicker="Opportunities"
-          heading="Real gigs matched to you."
+          kicker="What flows through"
+          heading="Opportunity in every form."
           lead="One clear path for youth, campuses, creators and partners."
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {CREATORS_OPPORTUNITY_CARDS.map((card) => (
+          {GRID_FLOW_CARDS.map((card) => (
             <Card key={card.title} {...card} />
           ))}
         </div>
@@ -120,14 +121,14 @@ function OpportunitiesSection() {
     </section>
   )
 }
-  
-export default function Creators() {
+
+export default function Grid() {
   return (
     <div className="bg-white">
-      <CreatorsHero />
+      <GridHero />
       <div id="content">
-        <CreatorJourneySection />
-        <OpportunitiesSection />
+        <WhyGridSection />
+        <WhatFlowsSection />
       </div>
     </div>
   )

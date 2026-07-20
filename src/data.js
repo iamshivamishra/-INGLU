@@ -110,6 +110,8 @@ export const footerLinks = {
     { label: 'Muse Records', path: '/muse' },
     { label: 'Travels', path: '/travels' },
     { label: 'Esports', path: '/esports' },
+    { label: 'FOMO Xperience', path: '/fomo' },
+    { label: 'The Grid', path: '/grid' },
   ],
   COMPANY: [
     { label: 'About Us', path: '/about' },
@@ -118,7 +120,8 @@ export const footerLinks = {
     { label: 'Press', path: '/press' },
     { label: 'Contact Us', path: '/contact' },
     { label: 'Case Studies', path: '/case-studies' },
-    { label: 'Colleges', path: '/colleges' }
+    { label: 'Colleges', path: '/colleges' },
+    { label: 'Artists', path: '/artists' },
   ],
   RESOURCES: [
     { label: 'Blog', path: '/blog' },
@@ -133,6 +136,8 @@ export const footerLinks = {
     { label: 'Code of Conduct', path: '/code-of-conduct' },
   ],
 }
+ 
+
 import { Sparkles, Users2, GraduationCap, Building2 } from 'lucide-react'
 
 // ---- Navbar ----
@@ -469,4 +474,52 @@ export const FOMO_MODULE_CARDS = [
   { title: 'Workshop', body: 'Hands-on, useful, fast.' },
   { title: 'Creator meetup', body: 'Collaboration that keeps going.' },
   { title: 'Live show', body: 'The reason everyone remembers it.' },
+]
+
+
+// ---- The Grid Page ----
+export const GRID_STATS = [
+  { value: '200+', label: 'Active nodes' },
+  { value: '500+', label: 'Campuses' },
+  { value: 'Tiers', label: 'Progression' },
+  { value: 'Paid', label: 'Opportunities' },
+]
+
+export const GRID_WHY_CARDS = [
+  { title: 'Opportunities fragmented', body: 'Internships, gigs and collabs scattered across DMs and luck.' },
+  { title: 'Communities isolated', body: 'Every campus works alone and networks reset at graduation.' },
+  { title: 'Access uneven', body: 'Who you know decides what you get.' },
+]
+
+export const GRID_FLOW_CARDS = [
+  { title: 'Internships', body: 'Real, paid internships from INGLU brand partners.' },
+  { title: 'Campus ambassador roles', body: 'Represent brands and build local presence.' },
+  { title: 'Collaborations', body: 'Creators, founders, leaders and projects.' },
+  { title: 'Growth', body: 'Credentials, network and proof of momentum.' },
+]
+
+
+
+// ---- Home Sitemap Section ----
+export const SITEMAP_LINKS = [
+  { label: 'About INGLU', path: '/about' },
+  { label: 'The Ecosystem', path: '/ecosystem' },
+  { label: 'For Students', path: '/for-students' },
+  { label: 'For Brands', path: '/for-brands' },
+  { label: 'Events', path: '/events' },
+  { label: 'Campus Buzz', path: '/campus-buzz' },
+  { label: 'INGLU Creators', path: '/creators' },
+  { label: 'Muse Records', path: '/muse' },
+  { label: 'FOMO Xperience', path: '/fomo' },
+  { label: 'SPACEBAR', path: '/spacebar' },
+  { label: 'For Colleges', path: '/colleges' },
+  { label: 'For Artists', path: '/artists' },
+  { label: 'Case Studies', path: '/case-studies' },
+  { label: 'Press & Media', path: '/press' },
+  { label: 'Careers', path: '/careers' },
+  { label: 'Contact', path: '/contact' },
+  { label: 'THE GRID', path: '/grid' },
+  { label: 'Privacy Policy', path: '/privacy' },
+  { label: 'Terms of Service', path: '/terms' },
+  { label: 'Refund Policy', path: '/refunds' },
 ]

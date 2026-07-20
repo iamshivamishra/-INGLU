@@ -24,12 +24,16 @@ import Creators from './components/Creators'
 import Ecosystem from './components/Ecosystem'
 import Events from './components/Events'
 import Fomo from './components/Fomo'
+import Grid from './components/Grid'
+import Sitemap from './components/Sitemap'
+
 
 function Home() {
   return (
     <>
       <Hero />
       <StatsBar />
+      <Sitemap />
       <WhatIsInglu />
       <Framework />
       <E3Model />
@@ -61,6 +65,7 @@ function App() {
         <Route path="/ecosystem" element={<Ecosystem />} />
         <Route path="/events" element={<Events />} />
         <Route path="/fomo" element={<Fomo />} />
+        <Route path="/grid" element={<Grid />} />
       </Routes>
       <Footer />
     </div>
