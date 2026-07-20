@@ -20,9 +20,10 @@ import Careers from './components/Careers'
 import CaseStudies from './components/CaseStudies'
 import Colleges from './components/Colleges'
 import Contact from './components/Contact'
-
-
-
+import Creators from './components/Creators'
+import Ecosystem from './components/Ecosystem'
+import Events from './components/Events'
+import Fomo from './components/Fomo'
 
 function Home() {
   return (
@@ -56,10 +57,14 @@ function App() {
         <Route path="/case-studies" element={<CaseStudies />} />
         <Route path="/colleges" element={<Colleges />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/creators" element={<Creators />} />
+        <Route path="/ecosystem" element={<Ecosystem />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/fomo" element={<Fomo />} />
       </Routes>
       <Footer />
     </div>
   )
 }
 
-export default App
+export default App  

@@ -371,3 +371,102 @@ export const CONTACT_FAQ_CARDS = [
 ]
 
 export const CONTACT_ROLE_OPTIONS = ['I am a...', 'Student', 'Creator', 'Brand', 'Campus Partner']
+
+
+
+// ---- Creators Page ----
+export const CREATORS_STATS = [
+  { value: '500+', label: 'Creators' },
+  { value: '14 days', label: 'To first gig' },
+  { value: '10-15%', label: 'Commission' },
+  { value: 'Verified', label: 'Creator network' },
+]
+
+export const CREATORS_JOURNEY_CARDS = [
+  { title: 'Create', body: 'Make the content you already love making.' },
+  { title: 'Publish', body: 'Post it anywhere, any audience size.' },
+  { title: 'Collaborate', body: 'Match with creators and the ecosystem.' },
+  { title: 'Work with brands', body: 'AI-matched paid gigs in about 14 days.' },
+]
+
+export const CREATORS_OPPORTUNITY_CARDS = [
+  { title: 'Brand campaigns', body: 'Paid gigs from Denver, Nykaa, Monster and more.' },
+  { title: 'Event coverage', body: 'Shoot, stream and cover INGLU events.' },
+  { title: 'Internships', body: 'Content, social and production roles.' },
+  { title: 'Ambassador programs', body: 'Earn your node on The Grid.' },
+]
+
+
+// ---- Ecosystem Page ----
+export const ECOSYSTEM_STATS = [
+  { value: 'E1', label: 'Education' },
+  { value: 'E2', label: 'Enhancement' },
+  { value: 'E3', label: 'Entertainment' },
+  { value: '14', label: 'Verticals' },
+]
+
+export const ECOSYSTEM_ORBIT_ITEMS = [
+  'Education', 'Enhancement', 'Entertainment', 'THE GRID', 'FOMO', 'Muse', 'Creators', 'SPACEBAR',
+]
+
+export const ECOSYSTEM_E3_CARDS = [
+  { title: 'Education', body: 'Talent with skills, proof and career capital.' },
+  { title: 'Enhancement', body: 'Earnings, credentials, network and a home to use them.' },
+  { title: 'Entertainment', body: 'Events, music, esports and the culture students show up for.' },
+]
+
+export const ECOSYSTEM_VERTICAL_CARDS = [
+  { title: 'INGLU Education', body: 'Skills built with brands.' },
+  { title: 'CUET Prep', body: 'The on-ramp before campus begins.' },
+  { title: 'INGLU Creators', body: '50 followers or 500K, you are in.' },
+  { title: 'SPACEBAR', body: 'The home where the ecosystem belongs.' },
+  { title: 'Society OS', body: 'Operating system for college societies.' },
+  { title: 'FOMO Xperience', body: 'Campus events people talk about after.' },
+]
+
+
+
+// ---- Events Page ----
+export const EVENTS_STATS = [
+  { value: 'FOMO Dubai', label: 'Nov 15, 2026' },
+  { value: '287', label: 'Registered' },
+  { value: '57%', label: 'Full' },
+  { value: 'Ground Zero S2', label: 'Aug 10, 2026' },
+]
+
+export const EVENTS_FEATURED_CARDS = [
+  { title: 'FOMO Dubai', body: 'Nov 15, 2026 · Dubai, UAE · 500 capacity.' },
+  { title: 'Ground Zero S2', body: 'Aug 10, 2026 · Delhi · creator battles and campus energy.' },
+  { title: 'Campus fest takeovers', body: 'Sponsors, artists, audiences and culture operations.' },
+]
+
+export const EVENTS_FORMAT_CARDS = [
+  { title: 'Founder talks', body: 'The real backstory behind ambitious youth journeys.' },
+  { title: 'Creator meetups', body: 'How creators actually collaborate, earn and grow.' },
+  { title: 'Workshops', body: 'Hands-on sessions that leave students with proof.' },
+  { title: 'Live shows', body: 'Artists, music, culture and the moment wall.' },
+]
+
+
+
+// ---- FOMO Xperience Page ----
+export const FOMO_STATS = [
+  { value: '100+', label: 'Campuses' },
+  { value: '1 day', label: 'Format' },
+  { value: '0', label: 'Fluff' },
+  { value: 'All access', label: 'Energy' },
+]
+
+export const FOMO_MOMENT_WALL_CARDS = [
+  { title: 'The drop that shook the quad', body: 'Amity · Noida.' },
+  { title: 'From hostel room to Rs 40Cr', body: 'Founder story at Bennett University.' },
+  { title: 'How creators actually get paid', body: 'Creator economy at SRM Chennai.' },
+  { title: '3,000 phones up at once', body: 'Campus fest at Christ Bangalore.' },
+]
+
+export const FOMO_MODULE_CARDS = [
+  { title: 'Founder talk', body: 'Ambition in first person.' },
+  { title: 'Workshop', body: 'Hands-on, useful, fast.' },
+  { title: 'Creator meetup', body: 'Collaboration that keeps going.' },
+  { title: 'Live show', body: 'The reason everyone remembers it.' },
+]
