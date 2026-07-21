@@ -26,6 +26,13 @@ import Events from './components/Events'
 import Fomo from './components/Fomo'
 import Grid from './components/Grid'
 import Sitemap from './components/Sitemap'
+import Muse from './components/Muse'
+import Press from './components/Press'
+import Privacy from './components/Privacy'
+import Refunds from './components/Refunds'
+import Spacebar from './components/Spacebar'
+import Students from './components/Students'
+import Terms from './components/Terms'
 
 
 function Home() {
@@ -66,6 +73,13 @@ function App() {
         <Route path="/events" element={<Events />} />
         <Route path="/fomo" element={<Fomo />} />
         <Route path="/grid" element={<Grid />} />
+        <Route path="/muse" element={<Muse />} />
+        <Route path="/press" element={<Press />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/refunds" element={<Refunds />} />
+        <Route path="/spacebar" element={<Spacebar />} />
+        <Route path="/for-students" element={<Students />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
       <Footer />
     </div>

@@ -118,10 +118,11 @@ export const footerLinks = {
     { label: 'Careers', path: '/careers' },
     { label: 'Brand Partners', path: '/for-brands' },
     { label: 'Press', path: '/press' },
-    { label: 'Contact Us', path: '/contact' },
+    { label: 'Contact Us', path: '/contact' }, 
     { label: 'Case Studies', path: '/case-studies' },
     { label: 'Colleges', path: '/colleges' },
     { label: 'Artists', path: '/artists' },
+    { label: 'Spacebar', path: '/spacebar' },
   ],
   RESOURCES: [
     { label: 'Blog', path: '/blog' },
@@ -522,4 +523,141 @@ export const SITEMAP_LINKS = [
   { label: 'Privacy Policy', path: '/privacy' },
   { label: 'Terms of Service', path: '/terms' },
   { label: 'Refund Policy', path: '/refunds' },
+]
+
+
+// ---- Muse Records Page ----
+export const MUSE_STATS = [
+  { value: 'PARO', label: 'Flagship' },
+  { value: '50+', label: 'Colleges' },
+  { value: 'Spotify', label: 'Editorial' },
+  { value: '2026', label: 'Tour year' },
+]
+
+export const MUSE_ROSTER_CARDS = [
+  { title: 'Hip-Hop', body: 'Cyphers, bars and the campus movement.' },
+  { title: 'Indie', body: 'Campus voices finding their sound.' },
+  { title: 'Electronic', body: 'Producers building the next campus rave.' },
+  { title: 'Fusion', body: 'Where classical meets the cypher.' },
+]
+
+export const MUSE_EXPERIENCE_CARDS = [
+  { title: 'Campus concerts', body: 'Emerging artists live on 500+ campuses.' },
+  { title: 'Recording sessions', body: 'Studio time, production and music videos.' },
+  { title: 'Creator collaborations', body: 'Artists paired with student creators.' },
+  { title: 'Showcases', body: 'Rooms where labels, brands and audiences discover talent.' },
+]
+
+
+// ---- Press & Media Page ----
+export const PRESS_STATS = [
+  { value: '2017', label: 'Founded' },
+  { value: '500+', label: 'Campuses' },
+  { value: '1000+', label: 'Events' },
+  { value: '1L+', label: 'Youth' },
+]
+
+export const PRESS_FEATURED_CARDS = [
+  { title: 'YourStory', body: 'Startup and ecosystem coverage.' },
+  { title: 'Entrepreneur India', body: 'Founder and growth stories.' },
+  { title: 'Hindustan Times', body: 'Youth culture and campus movement.' },
+  { title: 'Business Today', body: 'Brand and market context.' },
+]
+
+export const PRESS_STORY_CARDS = [
+  { title: 'The Beginning', body: '2017: campus communities and student ambition.' },
+  { title: 'Expansion', body: '2019: city-to-city movement.' },
+  { title: 'The Ecosystem', body: '2021: events, creators and opportunities at scale.' },
+]
+
+// ---- Privacy Policy Page ----
+export const PRIVACY_STATS = [
+  { value: 'Clear', label: 'Data use' },
+  { value: 'Secure', label: 'Systems' },
+  { value: 'User', label: 'Control' },
+  { value: 'DPDP', label: 'Ready' },
+]
+
+export const PRIVACY_COVERAGE_CARDS = [
+  { title: 'Information collected', body: 'Account, contact, program, event and communication information.' },
+  { title: 'How it is used', body: 'To operate opportunities, events, partnerships and community programs.' },
+  { title: 'User choices', body: 'Access, update, unsubscribe and privacy requests.' },
+]
+
+
+
+// ---- Refund Policy Page ----
+export const REFUNDS_STATS = [
+  { value: 'Clear', label: 'Eligibility' },
+  { value: 'Fast', label: 'Support' },
+  { value: 'Event', label: 'Rules' },
+  { value: 'Program', label: 'Rules' },
+]
+
+export const REFUNDS_FLOW_CARDS = [
+  { title: 'Eligibility', body: 'When refunds apply and what evidence is needed.' },
+  { title: 'Timelines', body: 'Expected review and processing windows.' },
+  { title: 'Exceptions', body: 'No-show, transfer, cancellation and event-specific terms.' },
+]
+
+
+// ---- Spacebar Page ----
+export const SPACEBAR_STATS = [
+  { value: 'Ideas', label: 'Sticky notes' },
+  { value: 'People', label: 'Introductions' },
+  { value: 'Projects', label: 'First drafts' },
+  { value: 'Outcomes', label: 'Startups' },
+]
+
+export const SPACEBAR_LIVING_ROOM_CARDS = [
+  { title: 'Ideas', body: 'Sticky notes. Half-thoughts. The maybe.' },
+  { title: 'People', body: 'Introductions. Shared obsessions.' },
+  { title: 'Projects', body: 'Sketches. Prototypes. First drafts.' },
+  { title: 'Outcomes', body: 'Startups. Bands. Festivals. Friends.' },
+]
+
+export const SPACEBAR_MOMENTS_CARDS = [
+  { title: '11:42 PM', body: 'Three strangers, one whiteboard, zero plan.' },
+  { title: '4:10 PM', body: 'Someone needed a guitarist.' },
+  { title: '9:05 AM', body: 'A second-year asked a question. A final-year stayed.' },
+  { title: '2:23 AM', body: 'The experiment failed beautifully.' },
+]
+
+
+// ---- For Students Page ----
+export const STUDENTS_STATS = [
+  { value: 'Rs 8-25K', label: 'Typical stipend' },
+  { value: '50K+', label: 'Students' },
+  { value: '14', label: 'Verticals' },
+  { value: '500+', label: 'Campuses' },
+]
+
+export const STUDENTS_ADVANTAGE_CARDS = [
+  { title: 'Internships', body: 'Real internships, not coffee runs.' },
+  { title: 'Brand collaborations', body: 'Paid campus and creator briefs.' },
+  { title: 'Networking', body: 'The connections that change a career.' },
+  { title: 'Leadership', body: 'Run campus programs that actually matter.' },
+  { title: 'Creator opportunities', body: 'Monetize content at any audience size.' },
+  { title: 'Community', body: 'Belong to a network that outlasts your degree.' },
+]
+
+export const STUDENTS_E3_CARDS = [
+  { title: 'Education', body: 'Industry-led bootcamps, playbooks and career capital.' },
+  { title: 'Entertainment', body: 'FOMO Xperience, festivals, shows and campus culture.' },
+  { title: 'Enhancement', body: 'THE GRID, SPACEBAR and leadership opportunities.' },
+]
+
+
+// ---- Terms of Service Page ----
+export const TERMS_STATS = [
+  { value: 'Fair', label: 'Participation' },
+  { value: 'Safe', label: 'Community' },
+  { value: 'Clear', label: 'Programs' },
+  { value: 'Trusted', label: 'Partners' },
+]
+
+export const TERMS_STRUCTURE_CARDS = [
+  { title: 'Participation', body: 'Rules for joining programs, events and communities.' },
+  { title: 'Conduct', body: 'Community expectations and safety.' },
+  { title: 'Programs', body: 'Terms for internships, creator briefs and brand activations.' },
 ]

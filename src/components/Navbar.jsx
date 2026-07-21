@@ -4,13 +4,12 @@ import { Link, useLocation } from 'react-router-dom'
 export default function Navbar() {
   const location = useLocation()
   
-  // Maine yahan "Artists" link ko array me add kar diya hai
   const links = [
     { name: 'About Us', path: '/about' },
     { name: 'Ecosystem', path: '/ecosystem' },
     { name: 'For Students', path: '/for-students' },
     { name: 'For Brands', path: '/for-brands' },
-    { name: 'Artists', path: '/artists' }, // ← Naya addition!
+    { name: 'Artists', path: '/artists' }, // 
     { name: 'Events', path: '/events' },
     { name: 'Campus Buzz', path: '/campus-buzz' },
   ]
